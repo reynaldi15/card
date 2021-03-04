@@ -1,0 +1,97 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksan:400,500&subset=latin-ext');
+body{
+    padding: 100px;
+    background-image: linear-gradient(-20deg,#ff2846 0%,#44ff8c 100%);
+   /* background-image: url(bmw\ e30.jpg);*/
+    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+}
+ul{
+    margin-left: -38px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.main{
+    width: 800px;
+    height: 520px;
+    background-color: #f0f8ff;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee'
+}
+.img{
+    background-image: url(img/profile.jpeg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: #0a0714;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #324e63;
+}
+p {
+    margin: 0 auto;
+    padding-top: 20px;
+/*ini di block agar teks menjadi responsive
+    /*width: 450px;
+    height: auto;*/
+    color: #3246e63;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+.cop{
+    font-size: 14.4px;
+    padding-top: 20px;
+    color: #6c6c6c;
+}
+/*responsi mobile midel*/
+@media (min-width:321px) and (max-width: 485px){
+    .main{
+        width: 157%;
+    height: 630px;
+    margin-left: -27%;
+    margin-right: 5%;
+    margin-top: -20px;
+    }
+    /*ini di block agar teks menjadi responsive
+/*    p{
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 225px;
+        height: auto;
+        color: #3246e63;
+    }*/
+    h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:320px){
+    .main{
+        width:90%;
+        height: 760px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+
+}
